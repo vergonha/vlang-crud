@@ -6,8 +6,8 @@ Do you know the V programming language? [Take a look](https://vlang.io/)
 ## Commands
 
 
-#### Unit tests: `v test tests/`
-#### Run server: `v crun src/`
+#### Unit tests: ` v test tests/ `
+#### Run server: ` v crun src/ `
 
 ⚠️ To run tests or start web server, you need to have a PostgreSQL server started.
 
