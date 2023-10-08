@@ -4,11 +4,11 @@ import json
 
 [table: 'task']
 pub struct Task {
-	title 			string 	[nonnull; sql_type: 'VARCHAR(24)']
-	description 	string 	[sql_type: 'VARCHAR(256)']
-	status 			string 	[sql_type: 'VARCHAR(16)']
+		title 		string 	[nonnull; sql_type: 'VARCHAR(24)']
+		description 	string 	[sql_type: 'VARCHAR(256)']
+		status 		string 	[sql_type: 'VARCHAR(16)']
 	mut:
-		id				int		 [primary; sql_type: serial]
+		id		int	[primary; sql_type: serial]
 
 }
 
@@ -17,7 +17,7 @@ pub struct TaskDto {
 		description	string	[json: description]
 		status		string	[json: status]
 	mut:
-		id			int		[json: id]
+		id		int	[json: id]
 
 }
 
